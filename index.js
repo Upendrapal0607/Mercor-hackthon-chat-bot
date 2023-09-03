@@ -36,7 +36,9 @@ const createChatLi = (message, className) => {
 const getDataFromApi = (incommitMessage) => {
   const messageElement = incommitMessage.querySelector("p");
 
-  let API_KEY = "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";
+  // let API_KEY = "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";
+  let API_KEY = "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";
+
   let URL = "https://api.openai.com/v1/chat/completions";
   console.log("userMessage", userMessage);
   const postDataDetails = {
@@ -58,10 +60,11 @@ const getDataFromApi = (incommitMessage) => {
   fetch(URL, postDataDetails)
     .then((res) => res.json())
     .then((data) => {
-      //   console.log(data.choices[0].message.content);
+        console.log(data);
       messageElement.textContent = data.choices[0].message.content;
     })
     .catch((error) => {
+      console.log(error);
       messageElement.textContent =
         "opps! something went wrong please try again.";
     })
@@ -89,7 +92,7 @@ const handleMessage = () => {
     // setTimeout(()=>{
     getDataFromApi(outputMessage);
     // },500)
-  }, 1000);
+  }, 500);
 
   // console.log(userMessage)
 
@@ -97,3 +100,5 @@ const handleMessage = () => {
 };
 
 sendChatbtn.addEventListener("click", handleMessage);
+
+console.log(process.env.API_KEY);

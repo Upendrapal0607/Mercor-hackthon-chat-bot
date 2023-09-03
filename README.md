@@ -21,6 +21,7 @@ Deploy Link - https://64f48eb3531aeb1818e65cd1--glittery-monstera-99bbd3.netlify
 
 <h2>Following are the Screenshots for the reference</h2>
 <h3>Chat Bot</h3>
-![Chat-bot](https://github.com/Upendrapal0607/Mercor-hackthon-chat-bot/assets/112810287/654774b1-9283-4f8a-8643-857862025358)
+![Chat-bot](https://github.com/Upendrapal0607/Mercor-hackthon-chat-bot/assets/112810287/740349a6-64c6-4584-8c3c-1b592ddf45a3)
+![Chat-bot](https://github.com/Upendrapal0607/Mercor-hackthon-chat-bot/assets/112810287/740349a6-64c6-4584-8c3c-1b592ddf45a3)
 
 # Thank You

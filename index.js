@@ -1,5 +1,6 @@
+import { API_KEY, URL } from "./Secreat/Secret.mjs";
 
-import { API_KEY, URL } from "./Secret.mjs";
+// import { API_KEY, URL } from "./Secret.mjs";
 const ulTage = document.querySelector("ul");
 const sendChatbtn = document.querySelector(".input-btn");
 const chatinput = document.querySelector(".input-text");

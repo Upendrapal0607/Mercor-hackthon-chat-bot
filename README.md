@@ -10,7 +10,7 @@ I completed this app within 6 hour in my Mercor hackathon.Chat Bot is a platefor
 <h2>Upendra Pal<h2>
 
 
-Deploy Link - https://64f4c7796de0933f3254ff48--earnest-naiad-fb4d40.netlify.app/
+Deploy Link - https://64f61c5212b13803c2748ebd--willowy-daifuku-69c391.netlify.app/
 
 
 <h2>Tech Stack Used: -<h3>

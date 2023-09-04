@@ -1,6 +1,4 @@
 import { API_KEY, URL } from "./Secreat/Secret.mjs";
-
-// import { API_KEY, URL } from "./Secret.mjs";
 const ulTage = document.querySelector("ul");
 const sendChatbtn = document.querySelector(".input-btn");
 const chatinput = document.querySelector(".input-text");
@@ -8,7 +6,6 @@ const UlTagClassName = ulTage.classList[0];
 const ptag = document.querySelector(".hello");
 const burger = document.querySelector(".burger");
 const deletebtn = document.querySelector(".delete");
-// console.log(sendChatbtn)
 let userMessage;
 const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");

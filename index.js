@@ -1,3 +1,5 @@
+
+import { API_KEY, URL } from "./Secret.mjs";
 const ulTage = document.querySelector("ul");
 const sendChatbtn = document.querySelector(".input-btn");
 const chatinput = document.querySelector(".input-text");
@@ -35,11 +37,9 @@ const createChatLi = (message, className) => {
 
 const getDataFromApi = (incommitMessage) => {
   const messageElement = incommitMessage.querySelector("p");
+  // let API_Key = API_KEY;
+  // let url = URL;
 
-  // let API_KEY = "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";
-  let API_KEY = "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";
-
-  let URL = "https://api.openai.com/v1/chat/completions";
   console.log("userMessage", userMessage);
   const postDataDetails = {
     method: "POST",
@@ -101,4 +101,4 @@ const handleMessage = () => {
 
 sendChatbtn.addEventListener("click", handleMessage);
 
-console.log(process.env.API_KEY);
+// console.log(process.env.API_KEY);

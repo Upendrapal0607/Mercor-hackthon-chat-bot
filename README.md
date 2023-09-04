@@ -12,6 +12,7 @@ I completed this app within 6 hour in my Mercor hackathon.Chat Bot is a platefor
 
 Deploy Link - https://64f4c7796de0933f3254ff48--earnest-naiad-fb4d40.netlify.app/
 
+
 <h2>Tech Stack Used: -<h3>
 <ul>
 <li>HTML</li>
@@ -19,8 +20,8 @@ Deploy Link - https://64f4c7796de0933f3254ff48--earnest-naiad-fb4d40.netlify.app
 <li>JavaScript </li>
 </ul>
 
-<h5>Following are the Screenshots for the reference</h5>
-** Chat Bot  *
-
+<h2>Following are the Screenshots for the reference</h2>
+<h3>Chat Bot</h3>
+![Chat-bot](https://github-production-user-asset-6210df.s3.amazonaws.com/112810287/265280279-740349a6-64c6-4584-8c3c-1b592ddf45a3.PNG)
 
 # Thank You

@@ -27,7 +27,7 @@ const createChatLi = (message, className) => {
  `;
 
   chatLi.innerHTML = chatContent;
-  chatLi.querySelector("p").textContent=message
+  chatLi.querySelector("p").textContent = message;
   return chatLi;
 };
 
@@ -37,7 +37,7 @@ const getDataFromApi = (incommitMessage) => {
   const messageElement = incommitMessage.querySelector("p");
 
   // let API_KEY = "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";
-  let API_KEY = "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";
+  let API_KEY = "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";
 
   let URL = "https://api.openai.com/v1/chat/completions";
   console.log("userMessage", userMessage);
@@ -60,7 +60,7 @@ const getDataFromApi = (incommitMessage) => {
   fetch(URL, postDataDetails)
     .then((res) => res.json())
     .then((data) => {
-        console.log(data);
+      console.log(data);
       messageElement.textContent = data.choices[0].message.content;
     })
     .catch((error) => {
